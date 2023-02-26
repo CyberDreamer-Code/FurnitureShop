@@ -2312,6 +2312,11 @@ body.popup-show::after {
     padding: 0.9375rem;
   }
 }
+@media (max-width: 29.99875em) {
+  .slider-tips__slider {
+    margin: 0 -0.9375rem;
+  }
+}
 .slider-tips__slide {
   display: flex;
   flex-direction: column;
