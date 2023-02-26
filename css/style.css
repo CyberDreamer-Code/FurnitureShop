@@ -2076,8 +2076,10 @@ body.popup-show::after {
     min-height: 25rem;
   }
 }
-.slider-rooms__slide.swiper-slide-active .slider-rooms__image-ibg {
-  padding-bottom: 156.45%;
+@media (min-width: 47.99875em) {
+  .slider-rooms__slide.swiper-slide-active .slider-rooms__image-ibg {
+    padding-bottom: 156.45%;
+  }
 }
 @media (max-width: 29.99875em) {
   .slider-rooms__slide {
@@ -2264,57 +2266,61 @@ body.popup-show::after {
     padding-bottom: 1.875rem;
   }
 }
+@media (max-width: 29.99875em) {
+  .tips__container {
+    padding: 0;
+  }
+}
 .slider-tips {
   position: relative;
 }
-@media (min-width: 79.375em) {
+.slider-tips__slider {
+  padding-top: 0.9375rem;
+  padding-bottom: 0.9375rem;
+}
+@media (min-width: 29.99875em) and (min-width: 79.375em) {
   .slider-tips__slider {
     margin-left: -2rem;
   }
 }
-@media (min-width: 20em) and (max-width: 79.375em) {
+@media (min-width: 29.99875em) and (min-width: 20em) and (max-width: 79.375em) {
   .slider-tips__slider {
     margin-left: clamp( 0.9375rem , 1.9269736842rem  +  -4.9473684211vw , -2rem );
   }
 }
-@media (max-width: 20em) {
+@media (min-width: 29.99875em) and (max-width: 20em) {
   .slider-tips__slider {
     margin-left: 0.9375rem;
   }
 }
-@media (min-width: 79.375em) {
+@media (min-width: 29.99875em) and (min-width: 79.375em) {
   .slider-tips__slider {
     margin-right: -2rem;
   }
 }
-@media (min-width: 20em) and (max-width: 79.375em) {
+@media (min-width: 29.99875em) and (min-width: 20em) and (max-width: 79.375em) {
   .slider-tips__slider {
     margin-right: clamp( 0.9375rem , 1.9269736842rem  +  -4.9473684211vw , -2rem );
   }
 }
-@media (max-width: 20em) {
+@media (min-width: 29.99875em) and (max-width: 20em) {
   .slider-tips__slider {
     margin-right: 0.9375rem;
   }
 }
-@media (min-width: 79.375em) {
+@media (min-width: 29.99875em) and (min-width: 79.375em) {
   .slider-tips__slider {
     padding: 2rem;
   }
 }
-@media (min-width: 20em) and (max-width: 79.375em) {
+@media (min-width: 29.99875em) and (min-width: 20em) and (max-width: 79.375em) {
   .slider-tips__slider {
     padding: clamp( 0.9375rem , 0.5796052632rem  +  1.7894736842vw , 2rem );
   }
 }
-@media (max-width: 20em) {
+@media (min-width: 29.99875em) and (max-width: 20em) {
   .slider-tips__slider {
     padding: 0.9375rem;
-  }
-}
-@media (max-width: 29.99875em) {
-  .slider-tips__slider {
-    margin: 0 -0.9375rem;
   }
 }
 .slider-tips__slide {
